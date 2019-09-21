@@ -1,0 +1,28 @@
+@media(max-width: 670px ){
+	.main {
+    	width: 100%;
+    	background-image: url(img/hana2.png);
+    	background-size: 550px 950px;
+    	opacity: 0.8;
+    	text-align: center;
+    }
+    .header {
+    	width: 100%;
+    	position: fixed;
+    	top: 0;
+    	z-index: 10;
+    }	
+    .link1 {
+    	font-size: 18px;
+    }
+    .logo {
+    	font-size: 30px;
+    	color: black;
+    	padding-top: 15px;
+    }
+    .pp {
+    	padding-top: 20px;
+
+
+    }
+}
