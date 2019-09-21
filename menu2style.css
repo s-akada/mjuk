@@ -1,3 +1,35 @@
+@charset "utf-8";
+.header {
+	height: 60px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    color: white;
+}
+.logo {
+	color: blue;
+	font-size: 50px;
+	float: left;
+	margin-right: 450px; 
+	color: white;
+
+} 
+.link1 {
+	font-size: 42px;
+	margin-left: 50px;
+	text-decoration: none;
+	color: white;
+}
+.link1:hover{
+	background-image: url(img/hp.jpg);
+	border-radius: 25px;
+	opacity: 0.8;
+	color: black;
+	transition: 1.2s;
+
+}
 .main {
 	background-image: url(img/hana3.png);
 	width: 100%;
