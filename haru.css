@@ -32,3 +32,136 @@ a {
   font-size: 45px;
   letter-spacing: 5px;
 }
+
+.top-wrapper p {
+  opacity: 0.7;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-bottom: 20px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: black;
+  display: inline-block; 
+  opacity: 0.8;
+  border-radius: 20px;
+  width: 400px;
+  height: 50px;
+  font-size: 30px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+  font-size: 50px;
+}
+.header-left:hover{
+  width: 135px;
+  height: 60px;
+  opacity: 0.5;
+
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+.lesson-wrapper {
+  width: 100%;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  /* text-alignをcenterに指定してください */
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+  color: green;
+  font-size: 50px;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+/* lesson-iconクラスのCSSを指定してください */
+.lesson-icon {
+  position: relative;
+}
+
+
+/* lesson-iconの中の<p>のCSSを指定してください */
+.lesson-icon p{
+  position: absolute;
+  top: -70px;
+  width: 100%;
+  color: blue;
+  font-size: 30px;
+}
+
+
+/* txt-contentsクラスのCSSを指定してください */
+.txt-contents {
+  margin: auto;
+  font-size: 25px;
+  }
